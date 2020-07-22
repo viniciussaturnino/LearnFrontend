@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./assets/Netflix.jpg');
+    /* -webkit-filter: blur(10%);
+    -moz-filter: blur(10%);
+    -o-filter: blur(10%);
+    -ms-filter: blur(10%);
+    filter: blur(10%); */
+    font-family: Roboto;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: anitialiased !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+input, button{
+    outline: 0;
+}
+
+header#main-header{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    /* background: blue; */
+}
+
+header#main-header img{
+    width: 170px;
+    height: 90px;
+    margin-left: 40px;
+}
+
+#app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 50px;
+}
+
+.login h1{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.login input{
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 12px;
+    background: #333;
+    margin-bottom: 15px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.login button{
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 12px;
+    background: #E50914;
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 25px;
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+
+.login button:hover{
+    filter: brightness(75%);
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    margin-bottom: 55px;
+}
+
+.options a{
+    color: #FFF;
+}
+
+.new-options{
+    color: #FFF;
+}
+
+.new-options p{
+    font-weight: 300;
+}
+
+.new-options p a{
+    color: #FFF;
+    font-weight: 700;
+}
